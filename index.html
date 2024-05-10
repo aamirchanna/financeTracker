@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contain">
+        <div class="inpu_box">
+            <input type="number" placeholder="Enter your income" id="inputBox"><br>
+            <input type="number" placeholder="Enter your expensis" id="inputBox2">
+        </div>
+
+        <p class="results" id="incomeResult">-</p>
+        <p class="results" id="expenseResult">-</p>
+        <p class="results" id="savingsResult">-</p>
+        
+        <button onclick="tracker()">calculate</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
