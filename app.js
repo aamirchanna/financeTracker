@@ -14,7 +14,7 @@ function tracker (){
       income.innerHTML = 'Your Salary is Rs. ' + addIncome ;
    
       var addExp = less ;
-      expense.innerHTML = 'Your Expensis is Rs. ' + addExp;
+      expense.innerHTML = 'Your ExpensE is Rs. ' + addExp;
       
       var showRemain = addIncome - addExp;
       savings.innerHTML = 'Your Saving is Rs. ' + showRemain;
